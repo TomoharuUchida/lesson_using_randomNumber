@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slot.css">
+  <title>じゃんけん</title>
+</head>
+
+<body>
+  <header>
+    <div class="top_container">
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main_container_left">
+      <!--ディスプレイ-->
+      <div>
+        <div class="display_container">
+          <div>獲得賞金</div>
+          <div id="prize_money">さぁ,ゲームをはじめるぞッ!!</div>
+          <!--<h3>ディスプレイ</h3>-->
+          <div>
+            <!--<img src="img/display.png" alt="">-->
+          </div>
+        </div>
+      </div>
+
+      <!--リールに関する記載-->
+      <div class="reel_container_box">
+        <div class="reel_container">
+          <div id="reel_1" class="reel_1">7</div>
+          <div id="reel_2" class="reel_2">7</div>
+          <div id="reel_3" class="reel_3">7</div>
+        </div>
+      </div>
+
+      <div class="reel_container_box">
+        <div class="reel_container">
+          <div id="reel_4" class="reel_1">7</div>
+          <div id="reel_5" class="reel_2">7</div>
+          <div id="reel_6" class="reel_3">7</div>
+        </div>
+      </div>
+
+      <div class="reel_container_box">
+        <div class="reel_container">
+          <div id="reel_7" class="reel_1">7</div>
+          <div id="reel_8" class="reel_2">7</div>
+          <div id="reel_9" class="reel_3">7</div>
+        </div>
+      </div>
+
+      <!--ストップボタンに関する記載-->
+      <div class="btn_box">
+        <div id="stop_btn"></div>
+
+        <!--<ul>
+                <li id="stop_btn_reel_1">STOP</li>
+                <li id="stop_btn_reel_2">STOP</li>
+                <li id="stop_btn_reel_3">STOP</li>
+              </ul>-->
+      </div>
+
+    </div>
+    <!--スタートボタンに関する記載-->
+    <div class="main_container_right">
+      <div class="money_box">
+        <div>資金</div>
+        <div id="money_with_me"></div>
+      </div>
+      <div class="time_box">
+        <div>残り時間</div>
+        <div id="time">GAME START</div>
+      </div>
+      <div id="rules">
+        RULE<br>
+        ・制限時間30秒以内に資金を増やせ<br>
+        ・'GAME START'をクリックしたらカウント開始<br>
+        ・スロットは1回3000円<br>
+        ・右下のボタンでスロットスタート,左下のボタンでストップ<br>
+        ・横もしくは対角線で,'同じ数字が3つ'そろえば1列につき200,000円,'777'なら1列につき1,000,000円',それ以外の目は全て0円
+      </div>
+      <div id="start_btn">
+      </div>
+    </div>
+    <!--<div id="com_hand">コンピュータの出した手は？</div>
+    <div id="result">結果は？</div>-->
+  </main>
+
+  <!--<footer>フッター</footer>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="slot.js"></script>
+
+  <script>
+    //ここに処理を追加
+
+  </script>
+
+</body>
+
+</html>

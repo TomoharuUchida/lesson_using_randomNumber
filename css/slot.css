@@ -1,0 +1,205 @@
+/*font-family: 'Sawarabi Mincho', sans-serif;*/
+/*font-family: 'Rajdhani', sans-serif;*/
+body{
+    /*margin:0;
+    padding:0;*/
+    /*text-align:left;*/
+    font-size: 32px;
+}
+
+
+
+.display_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    background-color: #a6ce39;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size:32px;
+}
+main{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-bottom:1px solid #ccc;*/
+}
+.main_container_left {
+    width: 60%;
+    height: 100%;
+    background-color: #a6ce39;
+}
+/*リールに関する記載*/
+.reel_container_box {
+    display: flex;
+    justify-content: center;
+    background-color: #a6ce39;
+    /*font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+.reel_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:9px;
+    background-color: #702c91;
+
+}
+
+.reel_1, .reel_2, .reel_3 {
+    font-size: 120px;
+    color: red;
+    width: 120px; 
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f1eac3;
+    color: #000000;
+}
+
+
+/*ボタンに関する記載*/
+.btn_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6ce39;
+}
+
+#stop_btn {
+    width: 80px;
+    height: 80px;
+    background-color:#000000;
+    border-radius: 50%;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    border: 10px solid #702c91;
+    /*cursor: pointer;*/
+    pointer-events: none;
+}
+
+/*右側ボタンに関する記載*/
+.main_container_right {
+    /*display: flex;
+    justify-content:center;
+    align-items: column-reverse;*/
+    background-color:#def0e7;
+    width: 40%;
+    height:100%;
+    font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+/*.top_container {
+    text-align:right;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    border-bottom: 1px solid ;
+    background-color: #a6ce39;
+}*/
+
+
+.top_header {
+    background-color:black;
+    color:white;
+    width:100%;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+.top_header {
+    color: #f1eac3;
+}
+
+.money_box {
+    background-color: #def0e7;
+    padding-left: 10px;
+}
+
+#money_with_me {
+    font-size:60px;
+    color: #000000;
+    background-color:#def0e7;
+    width:100%;
+    height: 80px;
+    border-bottom:1px solid#485f09;
+}
+
+.time_box {
+    background-color: #def0e7; 
+    padding-left: 10px;
+}
+
+#time {
+    color: #000000;
+    font-size: 48px;
+    background-color:#8ac0f3;
+    width:100%;
+    height: 80px;
+    margin-bottom: 9px;
+    border-bottom:1px solid#485f09;
+    cursor: pointer;
+}
+
+#time:hover{background-color: #F15922;}
+
+#rules {
+    color:#000000;
+    font-size: 24px;
+    /*background-color:#def0e7;*/
+    width:100%;
+    height: 321px;
+    padding-bottom: 9px;
+    background:none;
+    background-size: cover;
+}
+
+#img {
+    display: none;
+    background-size: cover;
+}
+
+#start_btn {
+    width: 80px;
+    height: 80px;
+    background-color:#f7e442;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    border: 10px solid #faa61a;
+    margin: 9px auto 9px auto;
+    cursor: pointer;
+    border-radius:50%;
+}
+
+/*footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}*/
+
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
